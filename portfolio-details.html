@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Details</title>
+
+    <!-- Bootstrap CDN Links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css"
+        integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+    <!-- Bootstrap ICONS CDN Links  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- Counters wark link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiv.css">
+</head>
+
+<body>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo"><a href="index.html">Pasha</a></h1>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto " href="#work">Work</a></li>
+                    <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
+                    <li class="dropdown">
+                        <a href="#">
+                            <span>Drop Down</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="dropdown">
+                                <a href="#">
+                                    <span>Deep Drop Down</span>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul> <i class="bi-list-task bi mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </header>
+    <div class="hero hero-single route bg-image" style="background-image: url(./pic/overlay-bg.jpg)">
+        <div class="overlay-mf"></div>
+        <div class="hero-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <h2 class="hero-title mb-4">Portfolio Details</h2>
+                    <ol class="breadcrumb d-flex justify-content-center">
+                        <li class="breadcrumb-item"> <a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Portfolio Details</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main id="main">
+        <section id="portfolio-details" class="portfolio-details">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-8">
+                        <!-- slide images start  -->
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./pic/portfolio-details-1.jpg"
+                                        class="d-block w-100 swiper-pagination-bullet" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./pic/portfolio-details-2.jpg"
+                                        class="d-block w-100 swiper-pagination-bullet" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./pic/portfolio-details-3.jpg"
+                                        class="d-block w-100 swiper-pagination-bullet" alt="...">
+                                </div>
+                            </div>
+                            <!-- radio button start -->
+                            <div class="slide">
+                                <div class="slides ">
+                                    <input type="radio" name="redio-btn" id="radio1">
+                                    <input type="radio" name="redio-btn" id="radio2">
+                                    <input type="radio" name="redio-btn" id="radio3">
+                                </div>
+                            </div>
+                            <!-- radio buttons End  -->
+                        </div>
+                        <!-- slide images End  -->
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="portfolio-info">
+                            <h3>Project information</h3>
+                            <ul>
+                                <li><strong>Category</strong>: Web design</li>
+                                <li><strong>Client</strong>: ASU Company</li>
+                                <li><strong>Project date</strong>: 01 March, 2020</li>
+                                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="portfolio-description">
+                            <h2>This is an example of portfolio detail</h2>
+                            <p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi
+                                labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque
+                                itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur
+                                dignissimos. Sequi nulla at esse enim cum deserunt eius.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">&copy; Copyright
+                            <strong>DevFolio</strong>
+                            . All Rights Reserved
+                        </p>
+                        <div class="credits"> Designed by
+                            <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN Links  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
